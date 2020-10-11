@@ -373,7 +373,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #e82d2d;
+  /*color: #e82d2d;*/
+  color:#5ea872;
   text-decoration: none;
 }
 
@@ -630,7 +631,8 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cc1616;
+  /*background: #cc1616;*/
+  background: #5ea872;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -683,7 +685,8 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #cc1616;
+  /*background: #cc1616;*/
+  background: #5ea872;
   transition: all .3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -726,8 +729,10 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  /*background: #cc1616;*/
+  /*border-color: #cc1616;*/
+  background: #5ea872;
+  border-color: #5ea872;
   padding: 70px 20px 90px 20px;
 }
 
@@ -736,11 +741,13 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #cc1616;
+  /*color: #cc1616;*/
+  color: #5ea872;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #e82d2d;
+  /*background: #e82d2d;*/
+  background: #5ea872;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -781,8 +788,10 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #cc1616;
-  border: 2px solid #cc1616;
+  /*background: #cc1616;*/
+  /*border: 2px solid #cc1616;*/
+  background:  #5ea872;
+  border: 2px solid  #5ea872;
 }
 
 /*--------------------------------------------------------------
@@ -1057,6 +1066,25 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team ul li {
+  padding-bottom: 10px;
+}
+
+.team ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5ea872;
+}
+
+.team p:last-child {
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
